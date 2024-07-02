@@ -1,0 +1,15 @@
+button{
+    width: 10em;
+    border-radius: 10em;
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gradient-background {
+  background: linear-gradient(to right, #22d36c, #1aa6bc);
+  color: #ffff;
+  border: none;
+}

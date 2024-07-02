@@ -1,10 +1,31 @@
 .nav{
-    width: 50em;
-    height: 30em;
-    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-img{
-    width: 80%;
-    height: 80%;
+.logo{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    margin-top: .6em;
+    height: 100%;
+}
+
+li{
+    padding: 1em;
+}
+
+li:hover{
+    border-bottom: .3em solid #22d36c;
+    padding-bottom: .8em;
 }
