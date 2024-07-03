@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Button from '../buttons/Button'
 import '../../styles/navbar.css'
@@ -12,7 +12,7 @@ const navbar = () => {
             <img src= {Logo} alt="" />
         </div>
 
-        <ul>
+        <ul id='menu'>
             <li>
                 <a href="">Home</a>
             </li>
