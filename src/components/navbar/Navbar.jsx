@@ -32,8 +32,9 @@ const navbar = () => {
           <Nav className="nav-list">
             <Nav.Link href="/" className='link'>Home</Nav.Link>
             <Nav.Link href="/about" className='link'>About</Nav.Link>
-            <Nav.Link href="/services" className='link'>Services</Nav.Link>
-            <Nav.Link href="/contact" className='link'>Contact</Nav.Link>
+            <Nav.Link href="/services" className='link'>Contact</Nav.Link>
+            <Nav.Link href="/contact" className='link'>Blog</Nav.Link>
+            <Nav.Link href="/contact" className='link'>Careers</Nav.Link>
           </Nav>
           
         </Navbar.Collapse>
