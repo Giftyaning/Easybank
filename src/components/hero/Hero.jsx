@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../styles/hero.css'
-import Button from '../buttons/Button'
+import Button from '../buttons/CustomButton'
 import Bg from '../../images/Bg-intro-desktop.svg'
 
 
