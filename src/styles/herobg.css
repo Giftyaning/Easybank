@@ -1,0 +1,45 @@
+.bg-container {
+  position: relative;
+  max-width: 100%; 
+  top: -25em;
+  left: 30em;
+  height: 10em;
+}
+
+.background-image,
+.mockups {
+  width: 60%; 
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .herobg-section{
+    flex-direction: column;
+    top: 5em;
+    left: 20%;
+  }
+
+  .background-image-desktop{
+    display: none;
+  }
+
+  .background-image-mobile{
+    display: block;
+    width: 350%;
+    top: -9em;
+    left: -14em;
+  }
+
+  .mockups{
+    width: 200%;
+    left: -5em;
+  }
+
+}

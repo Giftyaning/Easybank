@@ -1,9 +1,10 @@
 .custom-navbar{
-    z-index: 1;
-    background-color: white;     
-    padding: 0;
-    margin: 0;
-    width: 100%;
+  position: sticky;
+  z-index: 1;
+  background-color: white;     
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .custom-container{
@@ -42,6 +43,7 @@
 
   .custom-container{
     position: relative;
+    
   }
 
   .nav-list{

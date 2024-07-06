@@ -1,8 +1,10 @@
 import React from 'react'
 import '../../styles/hero.css'
 import Button from '../buttons/CustomButton'
-import Bg from '../../images/Bg-intro-desktop.svg'
-
+import BgMobile from '../../images/Bg-intro-desktop.svg'
+import BgDesktop from '../../images/Bg-intro-mobile.svg'
+import Mockups from '../../images/Mockups.png'
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 const Hero = () => {
   return (
@@ -16,9 +18,6 @@ const Hero = () => {
         </p>
         <Button />
       </div>
-      
-        <img src={Bg} alt="" className='background-image' />
-      
     </div>
   )
 }

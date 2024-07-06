@@ -1,23 +1,22 @@
 .hero-section{
-    display: flex;
-
-}
-
-.background-image {
-  width: 100%; /* Ensure the image stretches to fill its container */
-  height: auto;
-  display: block;
-}
-
-
-.background-image {
-  width: 100%; 
-  height: auto;
-  display: block;
-  margin-top: -3em;
-  z-index: -1;
+  display: flex;
+  max-width: 50%;
+  padding: 2em;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
-  
+  .hero-section{
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .description{
+    display: flex;
+    padding: 5em 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
