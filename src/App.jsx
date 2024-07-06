@@ -15,7 +15,9 @@ const App = () => {
     {/* 
     <Herobg />
     */}
+    <Articles />
     </>
+   
   )
 }
 

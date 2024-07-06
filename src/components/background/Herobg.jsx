@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../styles/herobg.css'
 import BgMobile from '../../images/Bg-intro-desktop.svg'
-import BgDesktop from '../../images/Bg-intro-mobile.svg'
 import Mockups from '../../images/Mockups.png'
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 
