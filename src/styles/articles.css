@@ -1,0 +1,27 @@
+ul{
+    display: flex;
+    gap: 5em;
+}
+
+.card{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.card img{
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+@media (max-width: 768px) {
+    ul{
+        flex-direction: column;
+    }
+}
