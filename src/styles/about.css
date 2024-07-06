@@ -1,0 +1,44 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    background-color: #7674740f;
+    padding: 7em 6em;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    gap: 1.5em;
+}
+
+ul li{
+    display: flex;
+    flex-direction: column;
+    max-width: 27%;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.icon{
+    max-width: 5em;
+}
+
+@media (max-width: 768px) {
+    .about{
+        justify-content: center;
+        align-items: center;
+        padding: 7em 1em;
+    }
+
+    ul{
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    ul li{
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
