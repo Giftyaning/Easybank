@@ -1,0 +1,52 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2d314e;
+    color: white;
+    padding: 2em;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    max-width: 10%;
+    gap: 2em;
+}
+
+.socials{
+    display: flex;
+    gap: .8em;
+}
+
+.nav-list-footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+    list-style: none;
+}
+
+.nav-list-footer li {
+    padding: 0; 
+    margin: 0;
+    width: 100%;
+    background-color: blue;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.nav-list-footer li a { 
+    color: white !important; 
+    text-decoration: none;
+    width: 100%;
+    text-align: 100%;
+    display: block;
+}
+
+.white-logo {
+    filter: invert(1); 
+    width: 100px; 
+}
