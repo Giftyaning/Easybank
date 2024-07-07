@@ -7,9 +7,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Herobg = () => {
   return (
     <div className="bg-container">
-        <img src={BgMobile} alt="" className='background-image' />
-        <img src={Mockups} alt="" className='mockups' />
+      <img src={BgMobile} alt="" className='background-image' />
+          {
+            /*
         
+        
+        <img src={Mockups} alt="" className='mockups' />
+        */
+        }
     </div>
 
    

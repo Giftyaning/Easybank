@@ -3,3 +3,9 @@ a, li, ul{
     text-decoration: none;
     list-style-type: none;
 }
+
+.hero-section{
+    margin: 0;
+    background-color: aqua;
+    max-width: 100%;
+}
