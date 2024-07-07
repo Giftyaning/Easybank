@@ -1,0 +1,27 @@
+.bg-container-mobile {
+ display: none;
+}
+
+@media (max-width: 768px) {
+  .bg-container-mobile {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -8em; 
+    right: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    margin-bottom: -5em;
+  }
+
+  .background-image-mobile {
+    width: 170%;
+    height: auto; 
+    object-fit: cover;
+  }
+}
