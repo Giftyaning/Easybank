@@ -1,6 +1,7 @@
 .footer{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     background-color: #2d314e;
     color: white;
     padding: 2em;
@@ -11,6 +12,8 @@
     flex-direction: column;
     max-width: 10%;
     gap: 2em;
+    justify-content: center;
+    align-items: center;
 }
 
 .socials{
@@ -18,35 +21,53 @@
     gap: .8em;
 }
 
-.nav-list-footer{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0;
+.nav-list-footer-wrapper {
+    display: flex;
+    flex-wrap: wrap; 
     padding: 0;
     margin: 0;
-    background-color: blueviolet;
-    list-style: none;
+    max-width: 40%; 
 }
 
-.nav-list-footer li {
+.nav-list-footer {
+    flex: 1 1 45%; 
+    min-width: 45%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0; 
     margin: 0;
-    width: 100%;
-    background-color: blue;
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
+    text-align: center;
 }
 
-.nav-list-footer li a { 
-    color: white !important; 
+.nav-list-footer a {
+    color: white !important;
     text-decoration: none;
     width: 100%;
-    text-align: 100%;
-    display: block;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.right p{
+    opacity: .5;
 }
 
 .white-logo {
     filter: invert(1); 
     width: 100px; 
+}
+
+@media (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4em;
+    }
 }

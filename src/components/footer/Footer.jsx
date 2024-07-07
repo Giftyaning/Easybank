@@ -6,6 +6,8 @@ import Instagram from '../../images/Instagram.svg'
 import Pinterest from '../../images/Pinterest.svg'
 import Twitter from '../../images/Twitter.svg'
 import Youtube from '../../images/Youtube.svg'
+import CustomButton from '../buttons/CustomButton'
+
 
 const Footer = () => {
   return (
@@ -22,32 +24,39 @@ const Footer = () => {
         </div>
       </div>
 
-      <ul className="nav-list-footer">
-       <li>
+      <ul className="nav-list-footer-wrapper">
+       <li className="nav-list-footer">
         <a href="">About Us</a>
        </li>
 
-       <li>
-        <a href="">Contact</a>
-       </li>
-
-       <li>
-        <a href="">Blog</a>
-       </li>
-
-       <li>
+       <li className="nav-list-footer">
         <a href="">Careers</a>
        </li>
 
-       <li>
+       <li className="nav-list-footer">
+        <a href="">Contact</a>
+       </li>
+
+       <li className="nav-list-footer">
         <a href="">Support</a>
        </li>
 
-       <li>
+       <li className="nav-list-footer">
+        <a href="">Blog</a>
+       </li>
+
+       <li className="nav-list-footer">
         <a href="">Privacy Policy</a>
        </li>
 
       </ul>
+
+      <div className="right">
+        <CustomButton />
+        <p>
+          Easybank. All Rights Reserved
+        </p>
+      </div>
     </div>
   )
 }
